@@ -22,7 +22,6 @@ flush privileges;
  chown zabbix.zabbix  *-mysql_cacti_stats.txt
  7、zabbix被动模式 zabbix-agent配置文件
  [root@yxtdb zabbix]# grep '^[a-Z]'  /etc/zabbix/zabbix_agentd.conf
- [root@yxtdb zabbix]# grep '^[a-Z]'  /etc/zabbix/zabbix_agentd.conf
 PidFile=/var/run/zabbix/zabbix_agentd.pid
 LogFile=/var/log/zabbix/zabbix_agentd.log
 LogFileSize=0
